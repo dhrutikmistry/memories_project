@@ -18,7 +18,7 @@ const App = () =>{
   },[dispatch]);
 
   return (
-    <Container maxWidth="md">
+    <Container maxWidth="lg">
         <AppBar className={classes.appBar} position="static" color="inherit">
           <Typography className={classes.heading} variant="h2" align="center">memories</Typography>
           
